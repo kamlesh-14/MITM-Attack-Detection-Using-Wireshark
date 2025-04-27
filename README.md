@@ -22,5 +22,5 @@ Detect MITM attacks by analyzing live network traffic using Wireshark.
 3. Duplicate use detected" messages
    
 ## Conclusion
-Using Wireshark, it's possible to detect MITM attacks by filtering specific ports and analyzing the misbehaviour of packets
-This method can help SOC analysts spot suspicious behavior early.
+Using Wireshark, it is possible to detect MITM attacks by filtering for specific packets like ARP and observing any anomalies, such as duplicate IP addresses or suspicious ARP replies. This method allows SOC analysts to spot suspicious behavior early, providing an important tool for network security and defense.
+
